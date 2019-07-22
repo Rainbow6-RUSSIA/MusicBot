@@ -1,0 +1,13 @@
+token = %%DISCORD_TOKEN%%
+
+owner = %%OWNER_ID%%
+
+prefix = "@mention"
+
+altprefix = "%%PREFIX%%"
+
+songinstatus = true
+
+stayinchannel = true
+
+updatealerts = false

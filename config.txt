@@ -2,9 +2,9 @@ token = %%DISCORD_TOKEN%%
 
 owner = %%OWNER_ID%%
 
-prefix = "@mention"
+altprefix = "@mention"
 
-altprefix = "%%PREFIX%%"
+prefix = "%%PREFIX%%"
 
 songinstatus = true
 

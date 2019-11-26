@@ -3,3 +3,6 @@
 /Playlists/
 nb*.xml
 /bin/
+*.prefs
+.project
+.classpath

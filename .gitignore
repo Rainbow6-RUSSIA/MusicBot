@@ -6,3 +6,6 @@
 *.txt
 nb*.xml
 /bin/
+*.prefs
+.project
+.classpath

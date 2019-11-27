@@ -3,6 +3,8 @@
     "version": "0.0.0",
     "private": true,
     "scripts": {
-        "postinstall": "node ./node/env.js"
+        "postinstall": "node ./node/env.js",
+        "start": "npm run postinstall && npm run run",
+        "run": "cd ./target && java -Dnogui=true -jar JMusicBot-0.2.6-All.jar"
     }
 }

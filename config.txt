@@ -6,8 +6,8 @@ altprefix = "@mention"
 
 prefix = "%%PREFIX%%"
 
-songinstatus = true
+songinstatus = %%SONG_IN_STATUS%%
 
-stayinchannel = true
+stayinchannel = %%STAY_IN_CHANNEL%%
 
-updatealerts = false
+updatealerts = %%UPDATE_ALERTS%%

@@ -5,6 +5,6 @@
     "scripts": {
         "postinstall": "node ./node/env.js",
         "start": "npm run postinstall && npm run run",
-        "run": "cd ./target && java -Dnogui=true -jar JMusicBot-0.2.6-All.jar"
+        "run": "cd ./target && java -Dnogui=true -jar JMusicBot-Snapshot-All.jar"
     }
 }

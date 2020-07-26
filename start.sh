@@ -1,0 +1,11 @@
+echo "
+token = ${DISCORD_TOKEN}
+owner = ${OWNER_ID}
+altprefix = \"@mention\"
+prefix = \"${PREFIX}\"
+songinstatus = ${SONG_IN_STATUS}
+stayinchannel = ${STAY_IN_CHANNEL}
+updatealerts = ${UPDATE_ALERTS}
+" > config.txt
+
+java -Dnogui=true -jar JMusicBot-Snapshot-All.jar

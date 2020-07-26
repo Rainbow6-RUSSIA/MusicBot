@@ -1,3 +1,5 @@
+#!/bin/sh
+
 echo "
 token = ${DISCORD_TOKEN}
 owner = ${OWNER_ID}
@@ -8,4 +10,4 @@ stayinchannel = ${STAY_IN_CHANNEL}
 updatealerts = ${UPDATE_ALERTS}
 " > config.txt
 
-java -Dnogui=true -jar JMusicBot-Snapshot-All.jar
+java -Dnogui=true -jar ./JMusicBot-Snapshot-All.jar

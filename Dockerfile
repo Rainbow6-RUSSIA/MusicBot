@@ -10,5 +10,5 @@ RUN mvn -f /app/pom.xml clean package
 # Package stage
 #
 FROM openjdk:11-jre-slim
-COPY --from=build /app/target/MusicBot-X.Y.Z.jar .
+COPY --from=build /app/target/JMusicBot-Snapshot-All.jar .
 CMD "start.sh"
